@@ -1,0 +1,22 @@
+// USER REDUCER TYPES
+
+export const SET_AUTHENTICATED = 'SET_AUTHENTICATED';
+export const SET_UNAUTHENTICATED = 'SET_UNAUTHENTICATED';
+export const SET_USER = 'SET_USER';
+export const LOADING_USER = 'LOADING_USER';
+
+// UI REDUCER TYPES
+
+export const SET_ERRORS = 'SET_ERRORS';
+export const LOADING_UI = 'LOADING_UI';
+export const CLEAR_ERRORS = 'CLEAR_ERRORS';
+
+// DATA REDUCER TYPES
+
+export const SET_HOWLS = 'SET_HOWLS';
+export const SET_HOWL = 'SET_HOWL';
+export const DELETE_HOWL = 'DELETE_HOWL';
+export const LIKE_HOWL = 'LIKE_HOWL';
+export const UNLIKE_HOWL = 'UNLIKE_HOWL';
+export const LOADING_DATA = 'LOADING_DATA';
+export const POST_HOWL = 'POST_HOWL';
